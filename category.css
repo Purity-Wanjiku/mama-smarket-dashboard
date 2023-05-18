@@ -1,0 +1,326 @@
+.topnav {
+    overflow: hidden;
+    /* background-color: #E1D89F; */
+    position: relative;
+    width: 200px;
+    height: 180px;
+  }
+  .topnav #myLinks {
+    display: none;
+    height: 300px;
+    margin-top: 40px;
+    width: 550px;
+  }
+  .topnav a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 100;
+    top: 0;
+    font-size: 40px;
+    color: #024C02;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+  .topnav a:hover {
+    /* background-color:#E1D89F; */
+    color: #024C02;
+    size: 40px;
+  }
+  #home{
+    margin-bottom: -10px;
+  }
+  .active {
+    background-color: #024C02;
+  }
+  .img{
+    width: 20%;
+    height: 20%;
+  }
+  .imgs{
+    width: 7%;
+    height: 7%;
+    margin-left: 90%;
+  }
+  .category{
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 400%;
+    color: green;
+  }
+  #category{
+    text-align: center;
+  }
+  .category1{
+    font-weight: bolder;
+    color: #024C02;
+    width: 100%;
+    font-size: 20px;
+  }
+.veg{
+    padding:2% 20%;
+    background-color: green;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border-color: white;
+}
+.list-a{
+    border-left: none;
+    color: white;
+    border-right: none;
+    background-color: #024C02;
+    border-top: 2px solid #E1D89F;
+    border-bottom: 2px solid #E1D89F;
+    /* line-height: 65px; */
+        }
+  #list-a{
+          display: inline-flex;
+          gap: 8em;
+        }
+         /* adding a checkbox */
+  input[type="checkbox"]:checked {
+    background-image: url(https://example.com/tick.png);
+  }
+  input[type="checkbox"]:not(:checked) {
+    background-image: url(https://example.com/x.png);
+  }
+  #apple{
+    margin-left: 20px;
+    width: 15%;
+    align-items: center;
+  }
+  #mango{
+    width: 30%;
+    align-items: center;
+  }
+  #cabbage{
+    width: 30%;
+    align-items: center;
+  }
+  
+  #list-b{
+    display: inline-flex;
+    margin-top: 30px;
+  }
+  #list-c{
+    display: inline-flex;
+    margin-top: 30px;
+
+  }
+  #image{
+    margin-left: 40px;
+  }
+  #aa{
+    margin-left: -18px;
+  }
+  #a{
+    margin-left: -15px;
+  }
+  #b{
+    margin-left: 180px;
+  }
+  #c{
+    margin-left: 300px;
+  }
+  #d{
+    margin-left: 140px;
+    padding: 2px 15px;
+    /* border: 1px solid #ECEAD9; */
+    border-radius: 8px;
+    background-color: #ECEAD9;
+  }
+  #abcd{
+    margin-left: 120px;
+  }
+  #e{
+    margin-left: 50px;
+  }
+  #checkbox{
+    margin-left: -20px;
+  }
+  /* uplooad  button */
+  .button {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    margin: 3.5px;
+  }
+  .button:hover {
+    background-color: #45A049;
+  }
+  .add{
+    width: 30%;
+    padding: 1%;
+    /* border-radius: 5px; */
+    padding: 1.5%;
+    /* margin-top: 3%; */
+}
+.form-submit { 
+  display: flex; 
+  justify-content: flex-end;
+ }
+.form-submit button {
+   background-color: #28A745;
+    border: none; 
+    margin-left:180px;
+    border-radius: 5px;
+     padding: 2px 20px; 
+     color: #FFF; 
+     cursor: pointer;
+     }
+     .form-submit button:hover {
+       background-color: #218838; }
+
+       /* adding a list */
+
+#myBrowser{
+  margin-left: 170px;
+  margin-top: 18px;
+  width: 22%;
+  height: 20px;
+  border-radius: 5px;
+  color: #024C02;
+  /* background-color: #FFFFAD; */
+  border: 2px solid  #024C02;
+}
+#fruit{
+  margin-left: 170px;
+  margin-top: 18px;
+  width: 25%;
+  height: 20px;
+  border-radius: 5px;
+  color: #024C02;
+  /* background-color: #FFFFAD; */
+  border: 2px solid  #024C02;
+}
+#myquantity{
+  margin-left: 170px;
+  margin-top: 18px;
+  width: 25%;
+  height: 20px;
+  border-radius: 5px;
+  color: #024C02;
+  /* background-color: #FFFFAD; */
+  border: 2px solid  #024C02; 
+}
+#price{
+  margin-left: 150px;
+  margin-top: 18px;
+  width: 22%;
+  height: 20px;
+  border-radius: 5px;
+  color: #024C02;
+  border: 2px solid  #024C02; 
+}
+#list-cc{
+  display: inline-flex;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+/* uploading an image */
+output{
+  min-height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  position: relative;
+  border-radius: 5px;
+}
+
+output .image{
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+}
+
+output .image img{
+  height: 100%;
+  width: 100%;
+}
+
+output .image span {
+  position: absolute;
+  top: -4px;
+  right: 4px;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+
+output .image span:hover {
+  opacity: 0.8;
+}
+
+output .span--hidden{
+  visibility: hidden;
+}
+#uploads{
+  display: flex;
+}
+
+.form-submit1 { 
+  /* display: flex;  */
+  justify-content: flex-end;
+  margin-right: 75px;
+ }
+.form-submit1 button {
+   background-color: #024C02;
+    border: none; 
+    margin-left: 70px;
+    border-radius: 5px;
+     padding: 20px 30px;
+     margin-right: -35px;
+     color: #FFF; 
+     cursor: pointer;
+     }
+    
+.form-submit button:hover {
+       background-color: #024C02; 
+      }
+#submit{
+  width: 80px;
+  height: 30px;
+  padding: 15px 8px;
+  background-color: #024C02;
+  border: none;
+    border-radius: 5px;
+     padding: 2px 20px; 
+     color: #FFF; 
+     cursor: pointer;
+     }
+     .Submit{
+      margin-left: 40%;
+      margin-top: -10%;
+     
+     }
+     #site-search{
+      border-color: #024C02;
+      border-radius: 5px;
+      padding: 5px 18px;
+
+    border: 1px solid gray; 
+     }
+
+     .to-flex{
+      display: flex;
+    }
+    .logo{
+      margin-top: 8px;
+      margin-left: 1000px;
+    }
+    #logo{
+      width: 50%;
+    }
+

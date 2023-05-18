@@ -1,0 +1,111 @@
+.topnav {
+  overflow: hidden;
+  /* background-color: #E1D89F; */
+  position: relative;
+  width: 200px;
+  height: 180px;
+}
+.topnav #myLinks {
+  display: none;
+  height: 300px;
+  margin-top: 40px;
+  width: 550px;
+}
+.topnav a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 100;
+  top: 0;
+  font-size: 40px;
+  color: #024C02;
+  padding-bottom: 3%;
+  padding-right: 3%;
+}
+.topnav a:hover {
+  /* background-color:#E1D89F; */
+  color: #024C02;
+  size: 40px;
+}
+#home{
+  margin-bottom: -10px;
+}
+.active {
+  background-color: #024C02;
+}
+.to-flex{
+  display: flex;
+}
+.logo{
+  margin-top: 8px;
+  margin-left: 1000px;
+}
+#logo{
+  width: 50%;
+}
+
+/* Table */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F0F0;
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: -100px;
+}
+.dashboard-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #024C02;
+  margin-bottom: 50px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #E0E0E0;
+}
+th {
+  background-color: #107A2B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+  background-color: #F7F7F7;
+}
+tbody tr:hover {
+  background-color: #EEEEEE;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+table {
+    display: block;
+    overflow-x: auto;
+}
+}
+
+
+
+
+
+
