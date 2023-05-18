@@ -5,102 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mama's Market</title>
-    <link rel="stylesheet" href="/category.css">
-    <script src="/script.js"> </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/sign-up.css">
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
-<body>
-  <div class="to-flex">
-      <div class="topnav">
-      <div id="myLinks">
-       <h2 id="home"><a href="/signup.html">Home</a>
-       <a href="/order.html">Orders</a>
-       <a href="/payment.html">View Payment</a></h2>
-      </div>
-     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-     <i class="fa fa-bars"></i></a>
-  </div>
-  <div class="logo">
-    <img src="/image/green_logo_yellow_outline_360.png" alt="" id="logo"></a>
-</div>
-</div>
-
-
-<div class="Submit">
-  <input type="search" id="site-search" name="q">
-  <button id="submit" type="submit">Search</button>
-</div>
-
-  <div class="category1">
-    <h1 id="category">CATEGORIES</h1>
-   <div class="list-a">
-       <div id="list-a">
-        <p id="image">Image</p>
-        <p id="name">Name</p>
-        <p>Category</p>
-        <p>Min. QTY</p>
-        <p>Price</p>
-        <!-- <input type="checkbox" name="checkbox_name" placeholder="Availability" value="Availability" id="checkbox"> -->
-        <p id="e">Add</p>
+<body class="body">
+      <div class="reg">
+        <!-- <img src="/image/green_logo_yellow_outline_360.png" alt="" class="img"> -->
+    <h1 id="log">Sign up to Mama's Market</h1><br><br>
+    <form  action="/login.html">
+        <label for="Full Name"></label><br>
+        <span class="material-icons" id="icon1">person</span><input type="text" placeholder="Full Name" id="labelid" name="Full Name" required class="add" ><br><br>
+        <label for="Email"></label><br>
+        <span class="material-icons" id="icon1">mail</span><input type="email" placeholder="Email" id="labelid" name="Email Address" required class="add"><br><br>
+        <label for="password"></label><br>
+        <span class="material-icons" id="icon1">lock</span><input type="password" placeholder="Password" id="labelid" name="password" required class="add"><br><br>
+        <label for="Confirm Password"></label><br>
+        <span class="material-icons" id="icon1">lock</span><input type="password" placeholder="Confirm Password" id="labelid" name="Confirm Password" required class="add"><br><br>
        
-      </div>
-   </div>
-   <!-- products data entry -->
-   <div id="list-b">
-    <label for="uploadButton" class="button"><img src="/image/apple-removebg-preview_360.png" id="apple"></label>
-    <p id="a">Apple</p>
-    <p id="b">Fruits</p>
-    <p id="b">200gm</p>
-    <p id="d">Ksh.35</p>
-    <!-- <input type="checkbox" name="checkbox_name" id="abcd"> -->
-    <div class="form-submit">
-      <button type="submit">Add product</button>
-    </div>
-   </div>
+        <a href="/index.html"><input type="button" value="Sign up" onclick="authenticateRegister()" class="button2" ></a>
+            
+        <br><br>
 
-   <div id="list-b">
-    <label for="uploadButton" class="button"><img src="/image/cabbage-removebg-preview.png" id="cabbage"></label>
-    <p id="aa">Cabbage</p>
-    <p id="b">Veggies</p>
-    <p id="b">200gm</p>
-    <p id="d">Ksh.35</p>
-    <!-- <input type="checkbox" name="checkbox_name" id="abcd"> -->
-    <div class="form-submit">
-      <button type="submit">Add product</button>
-    </div>
-   </div>
-  
-   <div id="list-cc">
-    <label for="uploadButton" class="button">Upload Image</label>
-  <!-- <div id="uploads"><input type="file" id="upload" accept="image/jpeg, image/png, image/jpg"></div> -->
-   <output></output>
-
-    <input type="text" id="fruit" name="fruit" placeholder="Product" />
-
-  <input list="browsers" id="myBrowser" name="myBrowser" placeholder="Category"/>
-  <datalist id="browsers">
-    <option value="fruits"></option>
-    <option value="vegetables"></option>
-  </datalist>
-
-  <input list="quantity" id="myquantity" name="myquantity" placeholder="Min. quantity"/>
-  <datalist id="quantity">
-    <option value="200gm"></option>
-    <option value="400gm"></option>
-    <option value="600gm"></option>
-    <option value="800gm"></option>
-    <option value="1 kg"></option>
-    <option value="2 kg"></option>
-  </datalist>
-
-
-    <input type="text" id="price" name="price" placeholder="price" />
-    <!-- <input type="checkbox" name="checkbox_name" id="abcd"> -->
-    <div class="form-submit1">
-      <button type="submit" id="add">Add product</button>
-    </div>
-   </div>
-
-  </div>
+        <p class="account">Already have an account? <a href="/login.html" id="login">Login</a></p>
+    
+    </form> 
+</div>
 </body>
 </html>
